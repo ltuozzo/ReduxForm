@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 //import styles from "../styles/layout.module.css";
 
-export const Header = () => {
+const Nav = () => {
   const pathname = usePathname();
 
   //TODO: Replace with better nav
@@ -38,3 +38,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Nav;

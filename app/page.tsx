@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Counter } from "./components/counter/Counter";
-import { SectionContainer } from "./components/SectionContainer/SectionContainer";
+import SectionContainer from "./components/SectionContainer/SectionContainer";
 
 export default function IndexPage() {
   return (

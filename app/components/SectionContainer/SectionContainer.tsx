@@ -8,6 +8,8 @@ interface SectionContainerProps {
   readonly children: ReactNode;
 }
 
-export const SectionContainer = ({ children }: SectionContainerProps) => {
+const SectionContainer = ({ children }: SectionContainerProps) => {
   return <SectionContainerWrapper>{children}</SectionContainerWrapper>;
 };
+
+export default SectionContainer;

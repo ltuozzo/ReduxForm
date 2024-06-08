@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
-import { Header } from "./components/Header/Header";
-
+import Nav from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer";
 import "./styles/globals.css";
 
 interface Props {
@@ -13,11 +13,11 @@ export default function RootLayout({ children }: Props) {
     <StoreProvider>
       <html lang="en">
         <body>
-          <Header />
+          <Nav />
 
           <main>{children}</main>
 
-          <footer></footer>
+          <Footer />
         </body>
       </html>
     </StoreProvider>
