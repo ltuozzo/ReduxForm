@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
-import Nav from "./components/Nav/Nav";
+import NavBar from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import "./styles/globals.css";
 
@@ -13,7 +13,7 @@ export default function RootLayout({ children }: Props) {
     <StoreProvider>
       <html lang="en">
         <body>
-          <Nav />
+          <NavBar />
 
           <main>{children}</main>
 
