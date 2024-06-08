@@ -1,11 +1,9 @@
-import Image from "next/image";
 import type { ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
 import { Nav } from "./components/Nav";
 
 import "./styles/globals.css";
 import styles from "./styles/layout.module.css";
-import { SectionContainer } from "./components/SectionContainer/SectionContainer";
 
 interface Props {
   readonly children: ReactNode;
